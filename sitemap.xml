@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/how-it-works/</loc>
+    <lastmod>2018-04-24T18:27:42-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/upgrading-the-operator/</loc>
+    <lastmod>2018-04-24T18:27:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/installation/</loc>
+    <lastmod>2018-04-24T18:27:02-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/configuration/</loc>
+    <lastmod>2018-04-24T18:26:56-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/getting-started/</loc>
+    <lastmod>2018-04-24T18:26:43-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2018-04-23T14:52:09-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
