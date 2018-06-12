@@ -287,7 +287,7 @@ h3 {
   margin: 2rem 0 1rem 0; }
 
 h4 {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   line-height: 110% !important;
   margin: 1.5rem 0 0.75rem 0; }
 
@@ -579,17 +579,21 @@ body {
     font-family: "Roboto", "Work Sans", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
     font-weight: 700; }
 
-h2, h3, h4, h5, h6 {
+h3, h4, h5, h6 {
   font-family: "Roboto", "Work Sans Bold", "Helvetica Bold", "Tahoma Bold", "Geneva Bold", "Arial Bold", sans-serif;
   text-rendering: optimizeLegibility;
   color: #5e5e5e;
-  font-weight: 400; }
+  font-weight: 600; }
 
 h1 {
   font-family: "Roboto", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
   text-align: center;
   font-size: 2rem;
-  font-weight: 200; }
+  font-weight: 600; }
+
+h2 {
+  font-weight: 600;
+}
 
 blockquote {
   border-left: 10px solid #f2f2f2; }
@@ -666,22 +670,18 @@ code, kbd, pre, samp {
   font-size: 92%; }
 
 code {
-  border-radius: 2px;
-  white-space: nowrap;
-  background: #FFF7DD;
-  border: 1px solid #ffeeb8;
-  padding: 0px 2px; }
+  padding: .2rem .4rem;
+  font-size: 90%;
+  color: #bd4147;
+  background-color: #f8f9fa;
+  border-radius: .25rem; }
 
 .hljs {
   background: #1d1f21; }
 
-code + .copy-to-clipboard {
-  margin-left: -2px;
-  border-left: 0 !important;
-  font-size: inherit !important;
-  vertical-align: middle;
-  height: 21px;
-  top: -1px; }
+.copy-to-clipboard {
+    display:none;
+}
 
 pre {
   padding: 1rem;
@@ -1045,24 +1045,6 @@ a.github-link {
 #body #breadcrumbs span {
   padding: 0 0.1rem; }
 
-.copy-to-clipboard {
-  display: inline-block;
-  position: relative;
-  color: #5e5e5e;
-  background-color: #f8efd1;
-  text-align: center;
-  cursor: pointer;
-  border-radius: 0 2px 2px 0;
-  padding: 0.1rem;
-  border: 1px solid #ffeeb8;
-  -webkit-transition: all 0.15s ease;
-  -moz-transition: all 0.15s ease;
-  -ms-transition: all 0.15s ease;
-  transition: all 0.15s ease; }
-
-.copy-to-clipboard:hover {
-  background-color: #f8efd1; }
-
 .clippy-icon {
   padding-left: 6px;
   padding-right: 4px;
@@ -1076,18 +1058,6 @@ a.github-link {
   /*    fill: $main_code_inline_text_color !important;*/
   fill: black !important;
   pointer-events: none; }
-
-pre .copy-to-clipboard {
-  position: absolute;
-  right: 4px;
-  top: 4px;
-  background-color: #e4e4e4;
-  color: #ccc;
-  border-radius: 2px; }
-
-pre .copy-to-clipboard:hover {
-  background-color: #e4e4e4;
-  color: #fff; }
 
 .parent-element {
   -webkit-transform-style: preserve-3d;
